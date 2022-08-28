@@ -27,7 +27,10 @@
 }
 
 .contatoCampo-checkbox {
-  display: none;
+  /*display: none;*/
+  /*left: -9999px;
+  position: absolute;*/
+  opacity: 0; /*No curso foi usado left e o position junto com opacity para garantir para esconder o chekbox e funcionou, coloquei somente o opaciity e funcionou, deixei para testar, a escolha deles foi manter o left e position junto com opacity */
 }
 
 .contatoCampo-icone {

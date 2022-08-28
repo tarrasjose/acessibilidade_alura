@@ -63,7 +63,7 @@
   padding-left: 30px;
   margin: 1em auto 1.5em auto;
   line-height: 2;
-  list-style: disc;
+  list-style: none; /*Estando disc também influencia como o NVDA narrará a tela, narrando bolinha a todo momento, por isso coloquei none*/
   color: #666;
   width: 240px;
 }
